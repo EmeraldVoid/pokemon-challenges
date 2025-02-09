@@ -28,4 +28,8 @@ The **Pokémon Stadium 2 Nuzlocke** is a unique twist on the classic **Nuzlocke 
 
 ## 🏆 **Hall of Fame Runs**  
 
-- [Hall of Fame](https://github.com/EmeraldVoid/hall-of-fame/blob/main/hall-of-fame.md)  
+- [Hall of Fame](https://github.com/EmeraldVoid/hall-of-fame/blob/main/hall-of-fame.md)
+
+  # Other Challenges:
+
+[Duskull Challenge](https://github.com/EmeraldVoid/pokemon-challengeds/blob/main/duskull%20challenge.md) | [Stadium 2 Nuzlocke](https://github.com/EmeraldVoid/pokemon-challengeds/blob/main/stadium%202%20nuzlocke.md) | [Hall of Fame](https://github.com/EmeraldVoid/pokemon-challengeds/blob/main/hall%20of%20fame.md) 

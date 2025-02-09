@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Layout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #222222;
+            color: #ffffff;
+            font-family: 'Afacad Flux', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .top-nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .top-nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+            padding: 8px 12px;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .top-nav a:hover {
+            background-color: #444;
+        }
+        .logo {
+            margin-top: 40px;
+        }
+        .button-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 20px;
+            width: 50%;
+            margin: 40px auto;
+        }
+        .button-grid a img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-nav">
+        <a href="index.html">Home</a>
+        <a href="https://www.twitch.tv/emerald_void">Twitch</a>
+        <a href="https://www.github.com/emerald_void">GitHub</a>
+    </div>
+    <div class="logo">
+        <img src="https://i.imgur.com/12ofd2X.png" alt="Logo">
+    </div>
+    <div class="button-grid">
+        <a href="duskull-challenge.html"><img src="https://i.imgur.com/hD2VZtK.png" alt="Button 1"></a>
+        <a href="scoreboard.html"><img src="https://i.imgur.com/gLzVtaE.png" alt="Button 2"></a>
+        <a href="stadium2-nuzlocke.html"><img src="https://i.imgur.com/8RIvKww.png" alt="Button 3"></a>
+        <a href="hall-of-fame.html"><img src="https://i.imgur.com/rSOct1w.png" alt="Button 4"></a>
+    </div>
+</body>
+</html>

@@ -2,6 +2,7 @@
 
 **Pokémon Showdown Scoreboard** is a game mode designed and created by the YouTuber [Hardyt3kyoyo](https://www.youtube.com/@Hardyt3kyoyo). The challenge is described as:  
 *"A unique competition show... between each of my Pokémon on my own team."*  
+If you are interested, you can find the origional video [here](https://www.youtube.com/watch?v=GAJwBKqQ04U&list=PL5ob57b6lyaG35oxsA-5YE1o0QvK_nErt)
 
 ## 📜 Rules  
 

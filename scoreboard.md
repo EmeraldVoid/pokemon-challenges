@@ -53,3 +53,7 @@ Assist Points are awarded when a Pokémon directly contributes to a knockout.
 - **Pokémon A** earns **+1 Assist Point** for contributing to the KO.  
 
 Assist Points can make a difference in close elimination rounds!
+
+# Other Challenges:
+
+[Duskull Challenge](https://github.com/EmeraldVoid/pokemon-challengeds/blob/main/duskull%20challenge.md) | [Stadium 2 Nuzlocke](https://github.com/EmeraldVoid/pokemon-challengeds/blob/main/stadium%202%20nuzlocke.md) | [Hall of Fame](https://github.com/EmeraldVoid/pokemon-challengeds/blob/main/hall%20of%20fame.md)

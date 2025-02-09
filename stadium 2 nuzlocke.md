@@ -1,6 +1,6 @@
 <p align="center"><img src="https://i.imgur.com/da2F63G.png"></p>
 
-The **Pokémon Stadium 2 Nuzlocke** is a unique twist on the classic **Nuzlocke challenge**, where Pokémon are **imported from Pokémon Crystal into Pokémon Stadium 2** for battle. This challenge was originally created by [Hardyt3kyoyo](https://www.youtube.com/@Hardyt3kyoyo).  
+The **Pokémon Stadium 2 Nuzlocke** is a unique twist on the classic **Nuzlocke challenge**, where Pokémon are **imported from Pokémon Crystal into Pokémon Stadium 2** for battle. This challenge was originally created by [Hardyt3kyoyo](https://www.youtube.com/@Hardyt3kyoyo). If you are interested, [here](https://www.youtube.com/watch?v=4dXH1K1w7Hs) is the video I used for inspiration.
 
 ---
 

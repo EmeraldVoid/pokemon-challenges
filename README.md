@@ -1,5 +1,23 @@
 # Pokémon Challenges
 
+<p align="center">
+  <a href="https://github.com/EmeraldVoid/pokemon-challenges/blob/main/Unova-Roulette.md">
+    <img src="https://img.shields.io/badge/Unova_Roulette-FF6F00?logo=collaboraonline&logoColor=ffffff" alt="Unova Roulette" />
+  </a>
+  <a href="https://github.com/EmeraldVoid/pokemon-challenges/blob/main/duskull%20challenge.md">
+    <img src="https://img.shields.io/badge/Duskull_Challenge-6A4C9C?logo=collaboraonline&logoColor=ffffff" alt="Duskull Challenge" />
+  </a>
+  <a href="https://github.com/EmeraldVoid/pokemon-challenges/blob/main/scoreboard.md">
+    <img src="https://img.shields.io/badge/Showdown_Scoreboard-D32F2F?logo=collaboraonline&logoColor=ffffff" alt="Showdown Scoreboard" />
+  </a>
+  <a href="https://github.com/EmeraldVoid/pokemon-challenges/blob/main/stadium%202%20nuzlocke.md">
+    <img src="https://img.shields.io/badge/Stadium_2_Nuzlocke-1976D2?logo=collaboraonline&logoColor=ffffff" alt="Stadium 2 Nuzlocke" />
+  </a>
+  <a href="https://github.com/EmeraldVoid/pokemon-challenges/blob/main/hall%20of%20fame.md">
+    <img src="https://img.shields.io/badge/Hall_of_Fame-FFD700?logo=collaboraonline&logoColor=ffffff" alt="Hall of Fame" />
+  </a>
+</p>
+
 Welcome to the ultimate hub for all the thrilling and unique Pokémon challenges I’ve tackled (and will be tackling) on Twitch! If you love a good challenge, you’re in the right place. Below, you’ll find links to each of my challenges, where the rules, twists, and epic victories await.
 
 Catch the action live on [Twitch](https://www.twitch.tv/emerald_void) as I face down these exciting challenges!

@@ -10,6 +10,7 @@
 
 2. **Randomized Mechanics**  
    - Pokémon have **random moves** and **random abilities**.
+   - The ability **Wonder Guard** is banned.
 
 3. **Restrictions on Items & Healing**  
    - **No healing items or healing moves** are allowed.
@@ -26,12 +27,16 @@
 
 6. **Pokémon Restrictions**  
    - **No Legendary Pokémon** are allowed.
+   - When you are able to, your starter Pokémon must be traded for the generated team in the box.
+   - When a Pokémon on your team is knocked out, it must be boxed or released and cannot be replaced.
+   - When all 6 of the randomly generated Pokémon are knocked out, the run is over.
 
 ---
 
 ### Additional Notes
 
 - The challenge is designed for the **Unova region**, but it can be adapted to other regions with similar rules.
+- For higher difficulty, Pokémon types can be randomized. This is not recommended but is a fun twist you can add if you're feeling bold.
 - The difficulty can be adjusted by modifying move randomization, ability settings, or additional restrictions.
 
 ---

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Challenges</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome CDN for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header with buttons -->
+    <div class="header">
+        <button class="nav-button" id="homeButton"><i class="fas fa-home"></i> Home</button>
+        <button class="nav-button" id="twitchButton"><i class="fab fa-twitch"></i> Twitch</button>
+        <button class="nav-button" id="githubButton"><i class="fab fa-github"></i> GitHub</button>
+    </div>
+
+    <div class="content-wrapper">
+        <p align="center"><img src="https://i.imgur.com/hD2VZtK.png"></p>
+        <p>The <strong>Duskull Challenge</strong> is a custom self-imposed challenge for <strong><a href="https://github.com/infinitefusion/infinitefusion-e18/releases">Pokémon Infinite Fusion</a></strong>, created by <strong>Emerald_Void</strong>. Inspired by <strong>Kaizo Ironmon</strong> and <strong>Nuzlocke</strong> rules, this challenge offers a unique difficulty by limiting all fusions to a single Pokémon—Duskull.</p>
+
+        <p>By only allowing fusions with Duskull, team composition becomes a key strategic element. You must account for <strong>consistent Ghost-type strengths and weaknesses</strong> while also adapting to the secondary typing of each fused Pokémon. For example:</p>
+        
+        <ul>
+          <li><strong>Ghost</strong> is weak to <strong>Ghost</strong> and <strong>Dark</strong></li>
+          <li>A <strong>Ghost/Fire</strong> fusion remains weak to Ghost and Dark but also gains weaknesses to <strong>Water, Ground, and Rock</strong></li>
+        </ul>
+        
+        <p>This challenge is <strong>flexible</strong>—while originally designed for Duskull, you can substitute another Pokémon of your choice. Want to do a <strong>Charizard fusion run</strong> instead? Go for it! Some Pokémon may not be available early on, but the challenge rules below provide guidance on how to handle those situations.</p>
+        
+        <p>Be sure and check out the <a href="https://www.twitch.tv/emerald_void">Emerald_Void</a> twitch channel to see this run in action.</p>
+        
+        <h2>Standard Duskull Rules:</h2>
+        <table>
+          <thead>
+            <tr>
+              <th><strong>Rules:</strong></th>
+              <th><strong>Details:</strong></th>
+              <th><strong>Notes:</strong></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>The Rule of 6</strong></td>
+              <td>You are only allowed to use 6 fusions of your chosen pokemon for the entire run.</td>
+              <td>For the Duskull challenge, once you get to the Hidden Forest/Hidden Tomb, you are allowed to catch 6 Duskull for the use of fusions. All other fusions must be defused and made into Duskull fusions.</td>
+            </tr>
+            <tr>
+              <td><strong>Permadeath</strong></td>
+              <td>Once a pokemon faints, you must release/store it. No exceptions. If it is a fusion pokemon, you loose both pokemon used for the fusion and can not defuse them.</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><strong>Game Over</strong></td>
+              <td>Once all Pokemon have fainted, the run is over, and you must restart.</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><strong>No Shops</strong></td>
+              <td>You are not allowed to buy any items from shops with the exception of Pokeballs, Splicers, & Reversers</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><strong>No Legendaries</strong></td>
+              <td>You cannot use any legendary (which includes sub-legendary and mythical) Pokemon. See the full list of legendary pokemon <a href="https://www.serebii.net/pokemon/legendary.shtml">here</a>. Pseudo-legendaries like Salamence are allowed.</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><strong>Catch or Kill 1 per Route</strong></td>
+              <td>You can only catch <strong>OR</strong> kill one Pokemon per route. It does not have to be the first one seen.</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><strong>Accidental Kill/Catches</strong></td>
+              <td>- If you accidentally kill a Pokemon while trying to catch it, you will no longer be able to capture or kill a Pokemon from that route.<br>- If you catch a Pokemon (accidental or otherwise) that you don't mean to add to your team, you can immediately deposit it in the PC without viewing any information about its stats or moves and then continue as if it never happened.</td>
+              <td>You may throw Pokeballs at a pokemon for reasons like being unable to run or if you are trying to scout its moves without risking killing it.</td>
+            </tr>
+            <tr>
+              <td><strong>Late to Midgame catches</strong></td>
+              <td>If your pokemon is a mid to late game catch, you may use any fusions you want until you are able to catch the pokemon that you are doing the challenge with is able to be caught.</td>
+              <td>In this case, Duskull can not be caught until Hidden Forest (which is after Erika) or Hidden Tomb (in Lavender Town).</td>
+            </tr>
+            <tr>
+              <td><strong>No Way Out Gyms</strong></td>
+              <td>Once you enter a Gym or Dojo, you cannot leave until you defeat ALL TRAINERS.</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><strong>One Shot Dungeons</strong></td>
+              <td>You can only enter a dungeon once, unless the story requires a revisit.</td>
+              <td>A Dungeon refers to: - Any Hideout - Any Cave - Any Building with Trainers. Forests are not dungeons.</td>
+            </tr>
+            <tr>
+              <td><strong>"Set" Battles Only</strong></td>
+              <td>You must use "Set" battle type in the in-game settings.</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><strong>No Healing Items outside of Battle</strong></td>
+              <td>No HP healing items while outside of battle</td>
+              <td>If you are using the optional rules for "Banned Moves", this will also apply to healing moves on Pokemon. (As the healing moves would be banned).</td>
+            </tr>
+            <tr>
+              <td><strong>"Dupes" Clause</strong></td>
+              <td>If the first pokemon in an area is one that you already own, you may continue battling until you encounter one that you do not own, and then attempt to catch it.</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><strong>Fair Fight Clause</strong></td>
+              <td>During Gym Leader and Rival battles, you may not have more pokemon than the opponent.</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><strong>Level Cap</strong></td>
+              <td>You may not use pokemon above the level of the next gym leader/Elite Four/Champion's highest leveled pokemon (their "ace").</td>
+              <td>Pokemon that have exceeded the level limit may be left in storage until they become eligible</td>
+            </tr>
+            <tr>
+              <td><strong>HM Helper</strong></td>
+              <td>If you have no pokemon than can use a <a href="https://bulbapedia.bulbagarden.net/wiki/Field_move">field move</a> that is required to continue the game, you may catch another pokemon to use the required field move.</td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+           
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

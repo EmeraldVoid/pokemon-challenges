@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Challenges</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome CDN for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header with buttons -->
+    <div class="header">
+        <button class="nav-button" id="homeButton"><i class="fas fa-home"></i> Home</button>
+        <button class="nav-button" id="twitchButton"><i class="fab fa-twitch"></i> Twitch</button>
+        <button class="nav-button" id="githubButton"><i class="fab fa-github"></i> GitHub</button>
+    </div>
+
+    <div class="content-wrapper">
+        <p align="center"><img src="https://i.imgur.com/BsLR1Q4.png"></p>
+        <p><strong>Pokémon Showdown Scoreboard</strong> is a game mode designed and created by the YouTuber <a href="https://www.youtube.com/@Hardyt3kyoyo">Hardyt3kyoyo</a>. The challenge is described as: <em>"A unique competition show... between each of my Pokémon on my own team."</em> If you are interested, you can find the original video <a href="https://www.youtube.com/watch?v=GAJwBKqQ04U&list=PL5ob57b6lyaG35oxsA-5YE1o0QvK_nErt">here</a></p>
+
+<h2>📜 Rules</h2>
+
+<ol>
+    <li><strong>Team Selection</strong>
+        <ul>
+            <li>A team of 6 <a href="https://randompokemon.com/">randomly generated Pokémon</a> (from all generations) is selected and added to <a href="https://pokemonshowdown.com/">Pokémon Showdown</a>.</li>
+            <li>Every Pokémon is legal except for past seasons' <em>Hall of Fame</em> Pokémon.</li>
+        </ul>
+    </li>
+    <hr>
+    <li><strong>Tier Selection</strong>
+        <ul>
+            <li>The team will compete in the tier of its highest-tiered Pokémon.</li>
+            <li>Example: If a team has five <em>Barely Used</em> Pokémon and one <em>Uber</em>-tiered Pokémon, the entire team must play in the <em>Ubers</em> tier.</li>
+        </ul>
+    </li>
+    <hr>
+    <li><strong>Matches & Eliminations</strong>
+        <ul>
+            <li>Each team plays <strong>three (3) games</strong>, earning points based on in-game performance.</li>
+            <li>At the end of the three games, the Pokémon with the lowest score is eliminated and a new Pokémon must be generated to take its place.</li>
+            <li>Any Pokémon that survives <strong>10 streams</strong> is added to the <a href="hall-of-fame.html"><em>Hall of Fame</em></a>.</li>
+            <li>Once <strong>six Pokémon</strong> enter the <em>Hall of Fame</em>, the season ends with a <strong>Hall of Fame Special</strong>, where the newly inducted team competes in three final matches.</li>
+        </ul>
+    </li>
+</ol>
+
+<hr>
+
+<h2>🎯 Scoring System</h2>
+
+<p>Pokémon earn (or lose) points based on their performance in battle:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Action</th>
+            <th>Points Awarded</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Knocking out an opponent's Pokémon</td>
+            <td>+2</td>
+        </tr>
+        <tr>
+            <td>Getting knocked out by an opponent</td>
+            <td>-1</td>
+        </tr>
+        <tr>
+            <td>Landing a critical hit</td>
+            <td>+1</td>
+        </tr>
+        <tr>
+            <td>Being knocked out by a critical hit <em>(Sympathy Point: negates -1 KO penalty)</em></td>
+            <td>+1</td>
+        </tr>
+        <tr>
+            <td>Inflicting a non-guaranteed status effect or stat drop <em>(e.g., Fire Blast causing burn)</em></td>
+            <td>+1</td>
+        </tr>
+        <tr>
+            <td>Being affected by a non-guaranteed status effect or stat drop</td>
+            <td>-1</td>
+        </tr>
+        <tr>
+            <td>Dodging an opponent's attack</td>
+            <td>+1</td>
+        </tr>
+        <tr>
+            <td>Missing an attack</td>
+            <td>-1</td>
+        </tr>
+        <tr>
+            <td>Using a <em>Team-Assisting Move</em> <em>(e.g., Stealth Rock, Spikes, Aromatherapy, etc.)</em></td>
+            <td>+1</td>
+        </tr>
+        <tr>
+            <td>"Phasing" out a buffed opponent <em>(e.g., using Whirlwind to remove a Swords Dance boost)</em></td>
+            <td>+1</td>
+        </tr>
+        <tr>
+            <td>Opponent forfeits while your Pokémon are alive</td>
+            <td>+1 (for all remaining Pokémon)</td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+
+<h2>🏅 Assist Points</h2>
+
+<p>Assist Points are awarded when a Pokémon directly contributes to a knockout.</p>
+
+<h3>Example:</h3>
+<ul>
+    <li><strong>Pokémon A</strong> uses <em>Toxic</em> on an enemy before being knocked out.</li>
+    <li><strong>Pokémon B</strong> switches in and weakens the poisoned enemy to low HP.</li>
+    <li>The enemy faints due to poison damage.</li>
+    <li><strong>Pokémon B</strong> earns <strong>+1 point</strong> for the knockout.</li>
+    <li><strong>Pokémon A</strong> earns <strong>+1 Assist Point</strong> for contributing to the KO.</li>
+</ul>
+
+<p>Assist Points can make a difference in close elimination rounds!</p>
+
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

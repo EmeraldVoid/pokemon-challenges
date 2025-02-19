@@ -57,6 +57,8 @@ Each entry will include:
 
 ## 🏅 **Current Hall of Fame Teams**  
 
+Despite the countless attempts, I haven't snagged a win yet. But that's part of the journey! I'm here for the challenge, the thrill, and of course, the enjoyment of the games themselves. It may take me a while, but I'll keep pushing forward, trying new challenges, and giving it my all until I finally get that elusive victory!
+
 ### 🏆 Fire Red Kaizo Champions  
 - *Still trying to get that W*  
 

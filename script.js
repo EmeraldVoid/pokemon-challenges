@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     creditsButton.addEventListener('click', function() {
-        window.location.href = ' https://emeraldvoid.github.io/pokemon-challenges/credits.html';
+        window.location.href = 'https://emeraldvoid.github.io/pokemon-challenges/credits.html';
       });
   });
 

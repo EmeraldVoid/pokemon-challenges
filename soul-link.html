@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Challenges</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome CDN for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header with buttons -->
+    <div class="header">
+        <button class="nav-button" id="homeButton"><i class="fas fa-home"></i> Home</button>
+        <button class="nav-button" id="twitchButton"><i class="fab fa-twitch"></i> Twitch</button>
+        <button class="nav-button" id="githubButton"><i class="fab fa-github"></i> GitHub</button>
+        <button class="nav-button" id="creditsButton"><i class="fas fa-book"></i> Credits</button>
+    </div>
+
+    <div class="content-wrapper">
+        <p align="center"><img src="https://i.imgur.com/dbuIJhD.png"></p>
+
+<h2>Regular Nuzlocke Rules</h2>
+
+<ul>
+  <li><strong>Fainting Rule:</strong> Any Pokémon that faints must be released or permanently boxed. It is considered “dead” for the rest of the challenge.</li>
+  <li><strong>First Encounter Rule:</strong> Only the first wild Pokémon encountered in a route or area can be caught. If the player fails to catch it (e.g., it flees or faints), their opportunity to catch a Pokémon in that area is lost.</li>
+  <li><strong>Duplicate Clause:</strong> If the first Pokémon in an area is one the player already owns, they may continue battling until they encounter one they do not own, then attempt to catch it. This prevents duplicates, especially in early-game routes with limited Pokémon variety.</li>
+  <li><strong>Shiny Clause:</strong> If the player encounters a shiny wild Pokémon, they may catch it, even if a wild Pokémon has already been encountered in that area. This does not count as the area’s encounter.</li>
+  <li><strong>Battle Mode:</strong> Players must use the <strong>"Set"</strong> battle mode.</li>
+  <li><strong>No Legendary Pokémon:</strong> Legendaries are not allowed.</li>
+  <li><strong>Gauntlet Clause:</strong> Once the player enters a Gym, they are not allowed to leave until the Gym has been defeated.</li>
+  <li><strong>Gym Leader Limit:</strong> The player may only bring as many Pokémon to a Gym Leader fight as the Gym Leader uses.</li>
+</ul>
+<hr>
+<h2>Soul Link Rules</h2>
+
+<ul>
+  <li><strong>Paired Gameplay:</strong> Two players play through the same game (or different games from the same generation, e.g., X and Y) simultaneously.</li>
+  <li><strong>Linked Encounters:</strong> The first encounters on each route are linked between the two players. If one player fails to catch their encounter, the other player must release or box theirs. If both players successfully catch their first encounter, those Pokémon become <strong>"linked" partners</strong>.</li>
+  <li><strong>Shared Fate:</strong> If one player’s Pokémon faints, its partner must be <strong>boxed or released</strong> as well.</li>
+  <li><strong>PC Rule:</strong> If a Pokémon is placed in the PC, its linked partner must also be placed in the PC.</li>
+</ul>
+<hr>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

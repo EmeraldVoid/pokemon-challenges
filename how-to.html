@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Challenges</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome CDN for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header with buttons -->
+    <div class="header">
+        <button class="nav-button" id="homeButton"><i class="fas fa-home"></i> Home</button>
+        <button class="nav-button" id="twitchButton"><i class="fab fa-twitch"></i> Twitch</button>
+        <button class="nav-button" id="githubButton"><i class="fab fa-github"></i> GitHub</button>
+        <button class="nav-button" id="creditsButton"><i class="fas fa-book"></i> Credits</button>
+    </div>
+
+    <div class="content-wrapper">
+        <p align="center"><img src="https://i.imgur.com/8RIvKww.png"></p>
+       
+        
+    
+<h1>Pokemon Stadium 2 Nuzlocke Guide</h1>
+
+<p>This repository contains everything you need to start your own <strong>Pokemon Stadium 2 Nuzlocke</strong> using Pokemon Crystal.</p>
+
+<h2>Requirements</h2>
+
+<p>Before you begin, ensure you have the following:</p>
+
+<ul>
+  <li><strong>Game Boy Color Emulator</strong> – For this setup, I personally used the latest version of <a href="https://visualboyadvance.org/download/">Visual Boy Advance (VBA)</a>.</li>
+  <li><strong>Pokemon Crystal ROM</strong> – You will need a valid ROM file. (I cannot provide links, but Google is your friend.)</li>
+  <li><strong>Pokemon Crystal Save File (.sav)</strong> – Create this by booting up Pokemon Crystal and saving in-game. <strong>Save states will not work.</strong></li>
+  <li><strong>Nintendo 64 Emulator</strong> – <a href="https://www.pj64-emu.com/">Project 64</a> is recommended for emulating Pokemon Stadium 2.</li>
+</ul>
+
+<h2>Getting Started</h2>
+
+<ol>
+  <li>Open <strong>VBA</strong> and load <strong>Pokemon Crystal</strong>.</li>
+  <li>Play the game normally, catch your Pokemon, and progress as needed.</li>
+  <li>Use <strong>in-game save</strong> (not save states) and close VBA.</li>
+</ol>
+
+<h2>Importing Your Team into Pokemon Stadium 2</h2>
+
+<ol>
+  <li>Open <strong>Project64</strong>.</li>
+  <li>Navigate to:
+    <ul>
+      <li><code>Options</code> &gt; <code>Input Settings</code></li>
+      <li><code>Controller Pak</code> &gt; Enable <strong>RawData</strong></li>
+      <li>Select <strong>Transfer Pak</strong> from the dropdown.</li>
+    </ul>
+  </li>
+  <li>Two options will appear:
+    <ul>
+      <li><strong>GB ROM File</strong> – Click browse, locate your <strong>Pokemon Crystal (.gbc)</strong> file, and open it.</li>
+      <li><strong>GB Save File</strong> – Click browse, locate your <strong>Pokemon Crystal (.sav)</strong> file, and open it.</li>
+    </ul>
+  </li>
+  <li>Click <strong>Use</strong>, then <strong>Save</strong>.</li>
+  <li>Boot up your <strong>Pokemon Stadium 2 ROM</strong> – the emulator should now recognize your <strong>Transfer Pak</strong>, allowing you to use your Pokemon Crystal team.</li>
+</ol>
+
+<h2>Recommended Cheats</h2>
+
+<p>To speed up the process, you can use <strong>Gameshark cheats</strong> in <strong>VBA</strong>:</p>
+
+<h3>Infinite EXP:</h3>
+<pre>
+014432DA
+014433DA
+014434DA
+9144E7DC
+9144E8DC
+9144E9DC
+</pre>
+
+<h3>Master Ball Cheats:</h3>
+<pre>
+<strong>Slot 1:</strong>
+0101B8D5 910193D8
+
+<strong>Slot 2:</strong>
+0101BAD5 910195D8
+
+<strong>Slot 3:</strong>
+0101BCD5 910197D8
+</pre>
+<p>(Additional slots follow the same pattern.)</p>
+
+<h3>Wild Pokemon Modifier:</h3>
+<pre>
+<strong>Code 1:</strong>
+01YY04D2  
+
+<strong>Code 2 (Alternative):</strong>
+91YY04D2
+</pre>
+
+<p><strong>Usage:</strong> Replace <code>YY</code> with the desired Pokemon's hex code. Example:</p>
+<pre>
+010904D2 (Blastoise)
+910904D2 (Alternative code for Blastoise)
+</pre>
+
+<p>For a full list of <strong>Pokemon Code IDs</strong>, refer to <a href="https://www.pokemoncoders.com/pokemon-crystal-cheats/">this list</a>.</p>
+
+<h2>Additional Notes</h2>
+
+<ul>
+  <li><strong>This setup allows you to transfer your in-game Nuzlocke team into Pokemon Stadium 2</strong> for additional challenges.</li>
+  <li><strong>Cheats are optional</strong> but can be useful for fast-tracking.</li>
+</ul>
+
+<hr>
+
+<p>Feel free to contribute or submit issues if you encounter problems!</p>
+
+    
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

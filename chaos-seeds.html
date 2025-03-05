@@ -1,82 +1,182 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokémon Challenges</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- FontAwesome CDN for icons -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <link rel="icon" href="PokeBall_37565.ico" type="image/x-icon">
-</head>
-<body>
-    <!-- Header with buttons -->
-    <div class="header">
-        <button class="nav-button" id="homeButton"><i class="fas fa-home"></i> Home</button>
-        <button class="nav-button" id="twitchButton"><i class="fab fa-twitch"></i> Twitch</button>
-        <button class="nav-button" id="githubButton"><i class="fab fa-github"></i> GitHub</button>
-        <button class="nav-button" id="creditsButton"><i class="fas fa-book"></i> Credits</button>
-    </div>
+<h1>Super Chaos Kaizo: Survival</h1>
 
-    <div class="content-wrapper">
-        <p align="center"><img src="https://i.imgur.com/037KEWK.png"></p>
-        
-        <h2>Introduction</h2>
-        <p>Chaos Seeds are special seeds created by <strong>Emerald_Void</strong> that randomize <strong>everything</strong>—items, moves, abilities, and more. If it can be randomized, it will be. This introduces an unpredictable and chaotic challenge into an already difficult gameplay experience.</p>
-        
-        <p>Chaos Seeds are designed to be fun, goofy, and extremely difficult. Any Pokémon that survives this grueling challenge earns a well-deserved place in <a href="https://emeraldvoid.github.io/pokemon-challenges/hall-of-fame.html">Emerald's Hall of Fame</a>.</p>
-        
-        <h2>Rules</h2>
-        <p>The specific rules for Chaos Seeds depend on the format of the night. Chaos Seeds may follow either <strong>Kaizo Ironmon rules</strong> or <strong>Nuzlocke rules</strong>.</p>
-        
-        <p>When a viewer redeems a <strong>Chaos Seed</strong>, Emerald_Void will load a <strong>randomly pre-generated Chaos Seed</strong> and begin playing.</p>
-        
-        <hr>
-        
-        <h3>General Rules</h3>
-        <ul>
-          <li><strong>All healing moves are banned</strong></li>
-          <li><strong>Wonder Guard is banned</strong></li>
-        </ul>
-        
-        <hr>
-        
-        <h3>BST Restrictions</h3>
-        <p>BST restrictions depend on:</p>
-        <ul>
-          <li>The <strong>game being played</strong></li>
-          <li>The <strong>format being used</strong> (<strong>Ironmon vs. Egglocke</strong>)</li>
-        </ul>
-        
-        <hr>
-        
-        <h3>Catching Pokémon</h3>
-        
-        <h4><strong>Kaizo Ironmon Rules</strong></h4>
-        <ul>
-          <li>You may only <strong>use one Pokémon</strong> at all times.</li>
-          <li>The only additional Pokémon allowed are <strong>HM Friends</strong>.</li>
-          <li>If you wish to pivot, you must <strong>commit</strong> to the new Pokémon upon catching it, <strong>before checking its stats</strong>.</li>
-        </ul>
-        
-        <hr>
+<p align="center"><img src="https://i.imgur.com/oYDR9xj.png"></p>
 
-        <h4><strong>Nuzlocke Rules</strong></h4>
-        <ul>
-          <li>You may catch the <strong>first Pokémon encountered</strong> in each route/location.</li>
-          <li>If the Pokémon is knocked out, you <strong>cannot catch another Pokémon</strong> in that area.</li>
-        </ul>
+<p align="center"><img src="https://img.shields.io/badge/v3.1.0_Ruleset-Super_Chaos_Kaizo_Survival_-006340?logo=googledocs&logoColor=ffffff" alt="v3.1.0 Ruleset - Super Chaos Kaizo Survival"></p>
 
-        <hr>
-        
-        <h3>Notes</h3>
-        <ul>
-          <li>¹ <strong>Rules may change over time</strong>. If updates occur, old rules will be archived for those who want to attempt past versions.</li>
-          <li>² <strong>Occasionally, Chaos Seeds may be generated live on stream</strong> instead of being pre-generated.</li>
-        </ul>
-        
-    </div>
+<p><strong>Last Updated March 4th, 2025. This ruleset is a work-in-progress. Check back frequently for updates. Feedback welcome!</strong></p>
 
-    <script src="script.js"></script>
-</body>
-</html>
+<h3>Work-in-Progress</h3>
+<p>These rules are constantly being changed and updated as I get more people to help me test, re-write, reformat and adjust the rules to make this challenge work. At the time of writing, the ruleset is <strong>v3.1.0</strong>. Stay tuned for more updates!</p>
+
+<h2>What is this ruleset?</h2>
+<p><strong>Super Chaos Kaizo: Survival</strong> is a custom challenge ruleset created by <strong>Emerald_Void</strong>, inspired by Kaizo, Survival, Super Kaizo, and Chaos Kaizo rulesets, with additional twists to maximize randomness and difficulty. It embraces pure chaos, making for a challenging yet entertaining experience.</p>
+<p>Using this ruleset, you can generate what are known as <strong>Chaos Seeds</strong> when playing on stream.</p>
+
+<h2>What Are Chaos Seeds?</h2>
+<p>Chaos Seeds are special randomized runs where <strong>everything</strong> is randomized—items, moves, abilities, Pokémon typings, and more. If it can be randomized, it will be. This makes for an unpredictable and often hilarious challenge.</p>
+<p>Chaos Seeds are meant to be fun, goofy, and incredibly difficult.</p>
+
+<h2>Randomizer Settings</h2>
+<p>At the time of the initial writing of this ruleset, I am only providing settings strings for Pokémon Emerald and FireRed/LeafGreen. There is no particular rhyme or reason for this other than wanting to use the Nat Dex ROM hack for each due the variety of pokemon.</p>
+
+<h3>FireRed / LeafGreen / Ruby / Emerald / Sapphire:</h3>
+<pre>322eTMBEjIBAAQABwCRAAKeBhsEiAEAFAACCQcmEgAAAAAABBi45ATkAYYICTIJBAIyVwUZC0VtZXJhbGQgKFUp2tJBqePDOIo=</pre>
+
+<hr>
+
+<h2>What You'll Need</h2>
+<ul>
+  <li><a href="https://github.com/CyanSMP64/NatDexExtension/releases">Ironmon Nat Dex Tracker (Current Release)</a></li>
+  <li>A valid Pokémon ROM</li>
+  <li><a href="https://github.com/UTDZac/universal-pokemon-randomizer-zx">Universal Pokémon Randomizer ZX (Current Release)</a></li>
+  <li><a href="https://github.com/CyanSMP64/NatDexExtension/blob/main/natdex/rom_patches/pokefirered_natdex_1.1.3.bps">Fire Red Nat Dex</a>
+    <ul>
+      <li>If you need help setting this challenge up, <a href="https://www.youtube.com/watch?v=_D4YpGLmIC8">here</a> is a helpful youtube tutorial.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/CyanSMP64/NatDexExtension/releases">ROM Patcher</a></li>
+</ul>
+
+<hr>
+
+<h2>Base Ruleset</h2>
+<p>This challenge is a mixture of a variety of Kaizo rules. The main set of rules used is UTDZac's <a href="https://gist.github.com/UTDZac/c8c3a84553840f8eabb063be80a33ee7#file-chaos-kaizo-ironmon-rules-md">Chaos Ironmon</a> ruleset with the following additions and variations.</p>
+
+<ul>
+  <li><strong>Nemesis Clause:</strong>
+    <ul>
+      <li>Pick <strong>one</strong> Pokémon as your nemesis</li>
+      <li>Once per run, you may kill it if you see it in the wild</li>
+      <li>You may never catch your nemesis</li>
+      <li>If your nemesis appears in the Lab, you <strong>must</strong> pick the Pokémon that would fight it (unless a favorite is available)</li>
+      <li>A Pokémon evolving into your nemesis is allowed</li>
+      <li>If both other starters are banned, you must take your nemesis</li>
+    </ul>
+  </li>
+  <li><strong>Trainers Have Smart AI:</strong>
+    <ul>
+      <li>Trainers use improved AI logic</li>
+      <li>Boss Trainers and Gym Leaders have held items ("Sensible Items" setting)</li>
+      <li>Gym Leaders have <strong>6 Pokémon</strong></li>
+    </ul>
+  </li>
+  <li><strong>Start off Shopping:</strong> You can buy 20 Potions anytime before entering the first gym, after that the normal IronMON shopping rules apply. You will have to find and sell any items possible to afford these. If you complete the first gym, you cannot buy any more potions.</li>
+  <li><strong>Pokemon Evolve Every Level:</strong> Pokémon will evolve randomly every level.</li>
+</ul>
+
+<h2>Optional Rules:</h2>
+<p>If you're looking for even <strong>more</strong> chaos and difficulty, you can add the following rules:</p>
+
+<ul>
+  <li><strong>Trainer Gauntlet:</strong> If a route has multiple Trainers, you must fight every one of them before healing.
+    <ul>
+      <li>If you enter a dungeon/cave, you must defeat every trainer inside before exiting or healing at a Pokémon Center.</li>
+      <li><strong>Exceptions:</strong>
+        <ul>
+          <li>You can leave to use an HM or required progression (e.g., leaving Rock Tunnel to get Flash), but you cannot heal outside before completing the gauntlet.</li>
+          <li>If a dungeon has an automatic heal event you must skip it until all trainers are defeated (unless it is mandatory).</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>No Free Healthcare:</strong> You must discard an extra item every time you heal at a Pokémon Center.</li>
+  <li><strong>Fickle Fortune:</strong> Everytime you pick up an item, flip a coin (or use a random number generator)
+    <ul>
+      <li><strong>Heads:</strong> You can keep it.</li>
+      <li><strong>Tails:</strong> You must immediately discard it.</li>
+    </ul>
+  </li>
+  <li><strong>The Silent Assassin:</strong> If you use a healing item in battle, you must skip your next healing item usage—in or out of battle.</li>
+</ul>
+
+<hr>
+
+<h2>Double Rules</h2>
+<p>In the Double variant, every battle is a doubles battle (2v2). These rules follow the Chaos Kaizo and Super Chaos Kaizo: Survival rules, with the addition of the following changes:</p>
+
+<ul>
+  <li><strong>Double Battles Only:</strong> All trainer battles must be doubles battles (2v2). If either of your two Pokémon faints, it’s game over and the run ends.</li>
+  <li><strong>Pivoting:</strong> You may pivot twice per route, instead of once. This includes pivoting to the same Pokémon a second time.</li>
+  <li><strong>Distinct Pokémon:</strong> Both of your Pokémon must be different. However, if evolving a Pokémon results in having two of the same Pokémon, that is allowed and bypasses this rule.</li>
+  <li><strong>Shared Moves:</strong> If both Pokémon share the same move, you cannot use that move for either of them. If one Pokémon learns a new move and the shared move is forgotten, you may then use it on the other Pokémon.
+    <ul>
+      <li><strong>Example:</strong> If both Pokémon have Water Spout, neither can use it until one of them forgets it.</li>
+    </ul>
+  </li>
+  <li><strong>Banned Move:</strong> The move <strong>Dark Void</strong> is banned for double battles.</li>
+</ul>
+
+<h2>Banned Pokémon, Moves, & Items</h2>
+
+<h3>General Rules</h3>
+<ul>
+  <li>Any Pokémon, move, or item <strong>not listed below</strong> is allowed.</li>
+  <li>If your Pokémon <strong>evolves into a banned Pokémon</strong>, you may still use it.</li>
+  <li>In the <strong>first rival battle</strong> (Lab), all moves and held items are allowed.</li>
+</ul>
+
+<table>
+  <tr>
+    <th><strong>Banned Pokémon</strong></th>
+    <th><strong>Banned Moves</strong></th>
+    <th><strong>Banned Items</strong></th>
+  </tr>
+  <tr>
+    <td>Dragonite</td>
+    <td>Recover</td>
+    <td>Leftovers</td>
+  </tr>
+  <tr>
+    <td>Mewtwo</td>
+    <td>Milk Drink</td>
+    <td>Shell Bell</td>
+  </tr>
+  <tr>
+    <td>Mew</td>
+    <td>Soft-Boiled</td>
+    <td>Lucky Egg</td>
+  </tr>
+  <tr>
+    <td>Tyranitar</td>
+    <td>Slack Off</td>
+    <td>Everstone</td>
+  </tr>
+  <tr>
+    <td>Lugia</td>
+    <td>Morning Sun</td>
+    <td>Soul Dew</td>
+  </tr>
+  <tr>
+    <td>Ho-oh</td>
+    <td>Synthesis</td>
+    <td>Sacred Ash</td>
+  </tr>
+  <tr>
+    <td>Celebi</td>
+    <td>Moonlight</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Salamence</td>
+    <td>Rest</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Metagross</td>
+    <td>Wish</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Slaking</td>
+    <td>Assist</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Latias</td>
+    <td>Aromatherapy</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Latios</td>
+    <td>
